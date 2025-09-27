@@ -1,0 +1,61 @@
+Evan Khoo
+09.27.25
+Version Control - Articulate
+
+1). Explain the meaning of Version Control
+
+    Version Control, put in the most simple way is a method of controlling 
+    the version of the code that you are working on or with. Projects are 
+    always growing and changing especially those that include code and 
+    Version Control is a tool that allows programmers to record each 
+    individual change and version of their code and projects as they continue
+    to grow and change. From being able to see the very beginning of the 
+    thought that went into the project all the way to the finished product,
+    Version Control is a fantastic way of keep track and organizing all your
+    work and changes.
+
+2). Highligh a benefit of Version Control
+
+    Version Control stands in the nearly completely beneficial brackets of 
+    productivity and efficiency. It allows easy organization of thought and 
+    work across several projects and related files. It allows for easy 
+    reference if the need to go back and look at previous thoughts or ideas 
+    that helped shaped the most current version of a project, but most of all
+    Version Control allows for easy sharing between inviduals and company
+    entities all working on the same or related projects. This kind of seemless
+    ability to coherently bring together the work of legion is what makes 
+    Version Control so incredibly powerful. No matter how far apart, what 
+    devices, or what kind of time changes there are, everybody is able to 
+    access, work with, make changes and update projects and have all that 
+    information recorded and organized neatly for everyones viewing pleasure.
+
+3). Provide an application of Version Control. This means, provide an example
+of how Version Control could be used.
+
+    I am working on a website, I am responsible for the html while my teamate
+    are working on the css and another is focusing on the js. We are all busy
+    and far apart so we are not able to work on the project together 
+    simultaneously. I can work on the html in spurts or designated times and 
+    when I finish what I was working on in a given period, I can write 
+    comments on what I did and what I hope the others in my team will be able
+    to accomplish with my changes. I can then upload that code to the Version
+    Control. My teamates will be able to see the previous html that I had 
+    written and the new updates that I had added to the html file. They will
+    be able to see my comments and my vision for the project and proceed to 
+    make their own changes to project as they see fit and keep me updated at
+    the same time. In this scenario everybody is able to work coherently
+    together despite any physically limiting factors.
+
+4). Show a command used in Version Control (for example a git command).
+
+    git init
+    git add .
+    git commit -m "Updates on changes made and thoughts"
+
+    These commands show the creation of a local git repository which you 
+    can think of as a safe or vault filled with filing cabinets. The git add
+    command is how we add a file to a filing cabinet that is about to be added
+    to the vault. The git commit command tha follows adds a little message of
+    why we are adding that filing cabinet and its purpose before storing 
+    the cabinet safely in the vault for authorized users to acces and search
+    through at a later date.
