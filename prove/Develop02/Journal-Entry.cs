@@ -37,7 +37,6 @@ public class JournalEntry
             Console.WriteLine("No text to save!");
             return;
         }
-
         try
         {
             if (!File.Exists(_fileName))

@@ -1,0 +1,47 @@
+Evan Khoo
+10.11.25
+Abstraction - Articulation
+
+Explain the meaning of Abstraction:
+
+Abstraction in computer science is very similar to the idea of Abstraction
+concepts in which we use metaphors or analogies to describe concepts that are
+not physical or easy to observe and understand. Abstraction is the same thing
+just in code. We take very complicated code that is difficult to obersve and
+understand and use a stand in analogy for that code in the form of simple UI's
+that can easily be understand and utilized. Calling a function named 
+DoThisComplicatedThing() is much easier than understanding everything that the
+function does and utilizing the actual function content in your own program.
+
+
+Highlight a benefit of Abstraction:
+
+Understanding things is difficult and I would much rather use something that 
+has been broken down to the point where I can easily and efficiently 
+incoporate it into what every project I am working on rather than taking the 
+time to understand every part of how every single thing works. It is an 
+effective tool for compartimentalizing and using just the pieces you need to
+use without the need to understand how it all works in a larger more detailed
+picture. Its about using without having to worry about the Hows or the Whys
+which allows better project productivity.
+
+Provide an application of Abstraction:
+
+I for one do not know how my kitchen sink works. I know how to work the 
+kitchen sink, I pull up on the faucet handle and water comes out, but I do not
+understand how the faucet itself gets water to pour out into my sink. This is
+abstraction. I can use, and use effectively, without understanding the Hows
+and Whys of the working mechanisms of what I am using. This is abstraction and
+it is used everywhere in our daily lives, often utilized by ourselves without
+ever defining the terms.
+
+Use a code example of Abstraction from the program you wrote:
+
+In my Journal program, within my main program I call the Menu class. That is 
+pretty much all I do and the rest of the program works to create a nice 
+Journal for me to continue not to use because I never use a journal no matter 
+how much I try to convince myself to do so. However, despite seeing the Menu
+class call you do not see how that class call works, how the Meny runs, creates
+files, saves text and displays it for your viewing pleasure. All of that is 
+hidden from view. All you see is the Menu class call and a nice little UI that
+allows you to interact with my program in predictable and safe ways.
