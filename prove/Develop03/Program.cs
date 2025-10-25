@@ -1,9 +1,11 @@
 using System;
+using System.Runtime.CompilerServices;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop03 World!");
+        Menu initMenu = new Menu();
+        initMenu.Display();
     }
 }
