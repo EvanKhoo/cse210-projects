@@ -1,0 +1,37 @@
+Evan Khoo
+10.24.25
+Encapsulation - Articulation
+
+Explain the meaning of Encapsulation
+
+Encapsulation is about encapsulating certain parts of a program and 
+"protecting" or "hiding" that part of the program from other progam files or
+parts to ensure their integrety and to make sure they are not changed or 
+affected. The practice of encapsulation is used primarily to ensure that 
+certain parts of programs do not unintentionally affect other parts that you
+want or need to be untouched. This also makes code easier to work with as it
+is less fragile, letting you work and program without fear that something 
+else will break with your changes.
+
+Highlight a benefit of Encapsulation
+
+Encapsulation allows you to work uninhibited without fear of destroying, 
+breaking or crashing your code later as certain sensitve parts are protected
+making your overall code less fragile. 
+
+Provide an application of Encapsulation
+
+Say you have an entity with certain attributes. An elephant might have color,
+age, and name as attributes. You want to be able to access the elephant class
+and make new elephants and manipulate their attributes without destroying
+the integreity of what the attributes represent. You can make those 
+attributes private and offer controlled gates of control ensuring that they
+can only be accessed through strict rules that ensure their integrity. 
+
+Use a code example of Encapsulation from the program you wrote
+
+An example of encapsulation that I used in my program is my _words attribute 
+of my Word class. I wanted to take a string and put it into a list to 
+manipulate the data inside without compromising the attribute itself. I made
+the list private and made strict access requirements so that I would manipulate
+the data in safe and predicatable ways.
