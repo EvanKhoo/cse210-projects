@@ -1,0 +1,71 @@
+Evan Khoo
+11.08.25
+Inheritance - Articulation
+
+Explain the meaning of Inheritance
+
+Inheritance is a bit tricky to explain as it is naturally very intuitive.
+Think of how a biological child inherits traits from their parents, from 
+physical traits such as height, eye or hair color, inheritance in programming
+is no different. You define a class and then assign or create child classes 
+that pull or inherit certain aspects from their parent class. If a class has
+certain behaviors, any of their children will be able to inherit and utilize
+such behaviors as well (if the protection level allows it). Same can be 
+said for functions, a child can use what a parent has created, not always
+vice versa however.
+
+Highlight a benefit of Inheritance
+
+Inheritance is all about eliminating redundancy. If several classes all share
+similar behaviors, characteristics or functions, then having a parent class 
+that all those closely related classes could all pull from would eliminate
+the code that they would all inevitably share anyways.
+
+Provide an application of Inheritance
+
+For instance, you have a fleet of vehicles and want to ensure that you can
+access and determine what each of those vehicles are so that you can properly
+use them and maintain them. You have trucks, semi trucks, cars, vans, etc.
+Instead of creating individual classes with all the same behaviors, as they
+all require oil, have engines, tires, color, make, model, year, etc. You can
+create a parent class called vehicle with all of those behaviors then have
+each vehicle type index into that parent class to reduce redundancy and 
+increase efficiency.
+
+Use a code example of Inheritance from the program you wrote
+
+In the code I wrote for our activity creator, I had a parent class called 
+activty, and 3 other specific activities that inherited the behaviors from the
+activity class. Breathing, reflection and listing all shared behaviors and as
+such I just consolidated those behaviors in the parent class of activity so 
+they could all access those behaviors through that class.
+
+example: 
+
+public class Activity
+{
+
+    protected string _name;
+    protected string _description;
+    protected int _duration;
+
+    public Activity(string name, string desc, int duration)
+    {
+        _name = name;
+        _description = desc;
+        _duration = duration;
+    }
+    ...
+}
+
+public class Breathing : Activity
+{
+    public Breathing() : 
+    base("Breathing Activity", "This activity will help you relax by " +
+    "walking you through breathing in and out slowly. Clear your mind and " +
+    "focuson your breathing.", 0)
+    {
+
+    }
+    ...
+}
