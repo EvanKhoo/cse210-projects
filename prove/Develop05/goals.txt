@@ -1,0 +1,4 @@
+200
+Simple|Read Book|Read a book|50|True
+Eternal|read scrips|read scrips|20
+Checklist|bike |bike|20|5|5|10

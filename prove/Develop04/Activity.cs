@@ -32,7 +32,7 @@ public class Activity
 
     protected void SpinnerAnimation(int duration)
     {
-         char[] spinner = { '|', '/', '-', '\\' };
+        char[] spinner = { '|', '/', '-', '\\' };
         DateTime endTime = DateTime.Now.AddSeconds(duration);
         int counter = 0;
 
